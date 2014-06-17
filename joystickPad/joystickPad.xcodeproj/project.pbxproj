@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1399EA03195011910071B8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA02195011910071B8D1 /* Foundation.framework */; };
+		1399EA05195011910071B8D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA04195011910071B8D1 /* CoreGraphics.framework */; };
+		1399EA07195011910071B8D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA06195011910071B8D1 /* UIKit.framework */; };
+		1399EA0D195011910071B8D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1399EA0B195011910071B8D1 /* InfoPlist.strings */; };
+		1399EA0F195011910071B8D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1399EA0E195011910071B8D1 /* main.m */; };
+		1399EA13195011910071B8D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1399EA12195011910071B8D1 /* AppDelegate.m */; };
+		1399EA16195011910071B8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1399EA14195011910071B8D1 /* Main.storyboard */; };
+		1399EA19195011910071B8D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1399EA18195011910071B8D1 /* ViewController.m */; };
+		1399EA1B195011910071B8D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1399EA1A195011910071B8D1 /* Images.xcassets */; };
+		1399EA22195011910071B8D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA21195011910071B8D1 /* XCTest.framework */; };
+		1399EA23195011910071B8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA02195011910071B8D1 /* Foundation.framework */; };
+		1399EA24195011910071B8D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA06195011910071B8D1 /* UIKit.framework */; };
+		1399EA2C195011910071B8D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1399EA2A195011910071B8D1 /* InfoPlist.strings */; };
+		1399EA2E195011910071B8D1 /* joystickPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1399EA2D195011910071B8D1 /* joystickPadTests.m */; };
+		1399EA38195011AE0071B8D1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1399EA37195011AE0071B8D1 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1399EA25195011910071B8D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1399E9F7195011910071B8D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1399E9FE195011910071B8D1;
+			remoteInfo = joystickPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1399E9FF195011910071B8D1 /* joystickPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joystickPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1399EA02195011910071B8D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1399EA04195011910071B8D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1399EA06195011910071B8D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1399EA0A195011910071B8D1 /* joystickPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "joystickPad-Info.plist"; sourceTree = "<group>"; };
+		1399EA0C195011910071B8D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1399EA0E195011910071B8D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1399EA10195011910071B8D1 /* joystickPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "joystickPad-Prefix.pch"; sourceTree = "<group>"; };
+		1399EA11195011910071B8D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1399EA12195011910071B8D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1399EA15195011910071B8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1399EA17195011910071B8D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1399EA18195011910071B8D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1399EA1A195011910071B8D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1399EA20195011910071B8D1 /* joystickPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = joystickPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1399EA21195011910071B8D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1399EA29195011910071B8D1 /* joystickPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "joystickPadTests-Info.plist"; sourceTree = "<group>"; };
+		1399EA2B195011910071B8D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1399EA2D195011910071B8D1 /* joystickPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joystickPadTests.m; sourceTree = "<group>"; };
+		1399EA37195011AE0071B8D1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1399E9FC195011910071B8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA38195011AE0071B8D1 /* CoreMotion.framework in Frameworks */,
+				1399EA05195011910071B8D1 /* CoreGraphics.framework in Frameworks */,
+				1399EA07195011910071B8D1 /* UIKit.framework in Frameworks */,
+				1399EA03195011910071B8D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1399EA1D195011910071B8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA22195011910071B8D1 /* XCTest.framework in Frameworks */,
+				1399EA24195011910071B8D1 /* UIKit.framework in Frameworks */,
+				1399EA23195011910071B8D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1399E9F6195011910071B8D1 = {
+			isa = PBXGroup;
+			children = (
+				1399EA08195011910071B8D1 /* joystickPad */,
+				1399EA27195011910071B8D1 /* joystickPadTests */,
+				1399EA01195011910071B8D1 /* Frameworks */,
+				1399EA00195011910071B8D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1399EA00195011910071B8D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1399E9FF195011910071B8D1 /* joystickPad.app */,
+				1399EA20195011910071B8D1 /* joystickPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1399EA01195011910071B8D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1399EA37195011AE0071B8D1 /* CoreMotion.framework */,
+				1399EA02195011910071B8D1 /* Foundation.framework */,
+				1399EA04195011910071B8D1 /* CoreGraphics.framework */,
+				1399EA06195011910071B8D1 /* UIKit.framework */,
+				1399EA21195011910071B8D1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1399EA08195011910071B8D1 /* joystickPad */ = {
+			isa = PBXGroup;
+			children = (
+				1399EA11195011910071B8D1 /* AppDelegate.h */,
+				1399EA12195011910071B8D1 /* AppDelegate.m */,
+				1399EA14195011910071B8D1 /* Main.storyboard */,
+				1399EA17195011910071B8D1 /* ViewController.h */,
+				1399EA18195011910071B8D1 /* ViewController.m */,
+				1399EA1A195011910071B8D1 /* Images.xcassets */,
+				1399EA09195011910071B8D1 /* Supporting Files */,
+			);
+			path = joystickPad;
+			sourceTree = "<group>";
+		};
+		1399EA09195011910071B8D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1399EA0A195011910071B8D1 /* joystickPad-Info.plist */,
+				1399EA0B195011910071B8D1 /* InfoPlist.strings */,
+				1399EA0E195011910071B8D1 /* main.m */,
+				1399EA10195011910071B8D1 /* joystickPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1399EA27195011910071B8D1 /* joystickPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1399EA2D195011910071B8D1 /* joystickPadTests.m */,
+				1399EA28195011910071B8D1 /* Supporting Files */,
+			);
+			path = joystickPadTests;
+			sourceTree = "<group>";
+		};
+		1399EA28195011910071B8D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1399EA29195011910071B8D1 /* joystickPadTests-Info.plist */,
+				1399EA2A195011910071B8D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1399E9FE195011910071B8D1 /* joystickPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1399EA31195011910071B8D1 /* Build configuration list for PBXNativeTarget "joystickPad" */;
+			buildPhases = (
+				1399E9FB195011910071B8D1 /* Sources */,
+				1399E9FC195011910071B8D1 /* Frameworks */,
+				1399E9FD195011910071B8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = joystickPad;
+			productName = joystickPad;
+			productReference = 1399E9FF195011910071B8D1 /* joystickPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1399EA1F195011910071B8D1 /* joystickPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1399EA34195011910071B8D1 /* Build configuration list for PBXNativeTarget "joystickPadTests" */;
+			buildPhases = (
+				1399EA1C195011910071B8D1 /* Sources */,
+				1399EA1D195011910071B8D1 /* Frameworks */,
+				1399EA1E195011910071B8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1399EA26195011910071B8D1 /* PBXTargetDependency */,
+			);
+			name = joystickPadTests;
+			productName = joystickPadTests;
+			productReference = 1399EA20195011910071B8D1 /* joystickPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1399E9F7195011910071B8D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dachang;
+				TargetAttributes = {
+					1399EA1F195011910071B8D1 = {
+						TestTargetID = 1399E9FE195011910071B8D1;
+					};
+				};
+			};
+			buildConfigurationList = 1399E9FA195011910071B8D1 /* Build configuration list for PBXProject "joystickPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1399E9F6195011910071B8D1;
+			productRefGroup = 1399EA00195011910071B8D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1399E9FE195011910071B8D1 /* joystickPad */,
+				1399EA1F195011910071B8D1 /* joystickPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1399E9FD195011910071B8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA1B195011910071B8D1 /* Images.xcassets in Resources */,
+				1399EA0D195011910071B8D1 /* InfoPlist.strings in Resources */,
+				1399EA16195011910071B8D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1399EA1E195011910071B8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA2C195011910071B8D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1399E9FB195011910071B8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA19195011910071B8D1 /* ViewController.m in Sources */,
+				1399EA13195011910071B8D1 /* AppDelegate.m in Sources */,
+				1399EA0F195011910071B8D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1399EA1C195011910071B8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA2E195011910071B8D1 /* joystickPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1399EA26195011910071B8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1399E9FE195011910071B8D1 /* joystickPad */;
+			targetProxy = 1399EA25195011910071B8D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1399EA0B195011910071B8D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1399EA0C195011910071B8D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1399EA14195011910071B8D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1399EA15195011910071B8D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1399EA2A195011910071B8D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1399EA2B195011910071B8D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1399EA2F195011910071B8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1399EA30195011910071B8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1399EA32195011910071B8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joystickPad/joystickPad-Prefix.pch";
+				INFOPLIST_FILE = "joystickPad/joystickPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1399EA33195011910071B8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joystickPad/joystickPad-Prefix.pch";
+				INFOPLIST_FILE = "joystickPad/joystickPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1399EA35195011910071B8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/joystickPad.app/joystickPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joystickPad/joystickPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "joystickPadTests/joystickPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1399EA36195011910071B8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/joystickPad.app/joystickPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "joystickPad/joystickPad-Prefix.pch";
+				INFOPLIST_FILE = "joystickPadTests/joystickPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1399E9FA195011910071B8D1 /* Build configuration list for PBXProject "joystickPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1399EA2F195011910071B8D1 /* Debug */,
+				1399EA30195011910071B8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1399EA31195011910071B8D1 /* Build configuration list for PBXNativeTarget "joystickPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1399EA32195011910071B8D1 /* Debug */,
+				1399EA33195011910071B8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1399EA34195011910071B8D1 /* Build configuration list for PBXNativeTarget "joystickPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1399EA35195011910071B8D1 /* Debug */,
+				1399EA36195011910071B8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1399E9F7195011910071B8D1 /* Project object */;
+}
